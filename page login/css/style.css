@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-image: url(/images/iceland-g67e407254_1920.jpg);
+    background-size: cover;
+}
+
+.space-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-login-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.page-login-content form input {
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: whitesmoke;
+    padding-left: 5px;
+    border-color: black;
+}
+
+.page-login-content form {
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 3rem;
+    box-shadow: 2px 3px 2px 2px black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+
+.button {
+    padding-top: 15px;
+}
+
+.button .button-enter {
+    color: black;
+}
+
+.button-enter:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.button-password {
+    padding-top: 0.5rem;
+}
